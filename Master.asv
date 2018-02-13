@@ -1,0 +1,16 @@
+clear all; close all; clc;
+
+%% load test data set
+load('Data/testSet.mat');
+
+% test result
+assert(isstruct(testSet));
+
+%% write a function: splitData() to split the dataset into two structures with the same organisation, divided by the NMDA value of the mice, calling one 'control' and the other 'test'. The result should be two structures organised in the same way as testSet
+%% where all the mice in Control have NMDA = 0 and all the mice in Test have NMDA > 0.
+[control, test] = splitData(testSet);
+
+assert(lenth(fieldnames(control
+
+
+

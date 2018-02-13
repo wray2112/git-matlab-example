@@ -1,0 +1,12 @@
+The aim of this exercise is to collaboratively develop an analysis script for behavioural data generated in AutonoMouse. 
+Use the 'Master' script as a guide for the initial analysis steps needed.
+
+The Data folder contains data from a group of 14 animals performing various odour and auditory discrimination tasks (Go/No-Go). Animals perform these tasks before
+and after lesion induction in the olfactory bulb via excitotoxic NMDA lesions.
+
+The data set is a structure organised by individual animal. Within each animal are the tasks performed and the amount of NMDA injected for lesion induction (0 = sham).
+Tasks performed after lesion induction are marked with 'PL'. Within each task are the results of each trial within the task (e.g. time of trial, whether trial was rewarded,
+whether animal was correct etc.)
+
+Initial task (see Master):
+Compare average animal performance before and after lesion induction in the memory task. Also compare between lesion groups (sham vs. lesion).
