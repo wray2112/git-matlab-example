@@ -10,3 +10,5 @@ whether animal was correct etc.)
 
 Initial task (see Master):
 Compare average animal performance before and after lesion induction in the memory task. Also compare between lesion groups (sham vs. lesion).
+
+Throughout this task, update the README file to describe each of the functions generated and the purpose of the Master script.
